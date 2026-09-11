@@ -1,0 +1,17 @@
+{
+  "name": "sky-hopper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "跳跳兔 · Sky Hopper 无限跳跃小游戏（网页版 + Android APK）",
+  "scripts": {
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
